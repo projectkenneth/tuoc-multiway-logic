@@ -14,8 +14,8 @@ public class TheComplexImplementation {
 
         System.out.println("The Complex Implementation:");
 
-        sortChain.sort(fiftyArray);
-        sortChain.sort(hundredFiftyArray);
+        sortChain.sort(fiftyArray); // bubble sort
+        sortChain.sort(hundredFiftyArray); // quick sort
         
         System.out.println("---");
     }
